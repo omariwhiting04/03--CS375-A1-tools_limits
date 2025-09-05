@@ -1,0 +1,16 @@
+# gdb answers (fill these in)
+
+1value of argv
+a memory address like 0x7fffffffe518
+what argv[0] points to
+the program name string like "./a.out"
+address of main
+function address in memory like 0x401136
+backtrace (bt)
+shows the call stack, for example #0 main and any functions before it
+info frame
+shows frame address, saved return address, stack and locals info
+info registers
+common ones are rip (next instruction), rsp (stack pointer), rbp (base pointer), rax (return value), rdi rsi (function args) with hex values
+step next break experience
+break stops at a line, next steps over, step goes inside, continue resumes, lets you watch variables change line by line
